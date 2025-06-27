@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="Main">
+        <div class="calScreen" > <input type="text" id="calScreen" ></div>
+        <table>
+        <tr>
+            <td class="color"><button id="AC" onclick="AC()">AC</button></td>
+            <td class="color"><button id="DEL" onclick="DEL()">DEL</button></td>
+            <td class="color"><button id="/" onclick="Division()">/</button></td>
+            <td class="color"><button id="*" onclick="Multiply()">*</button></td>
+        </tr>
+         <tr>
+            <td><button id="7" onclick="seven()">7</button></td>
+            <td><button id="8" onclick="Eight()">8</button></td>
+            <td><button id="9" onclick="Nine()">9</button></td>
+            <td class="color"><button id="-" onclick="Subtract()">-</button></td>
+        </tr>
+         <tr>
+            <td><button id="6" onclick="six()">4</button></td>
+            <td><button id="5" onclick="five()">5</button></td>
+            <td><button id="4" onclick="four()">6</button></td>
+            <td class="color"><button id="+" onclick="Add()">+</button></td>
+        </tr>
+         <tr>
+            <td><button id="1" onclick="one()">1</button></td>
+            <td><button id="2" onclick="two()">2</button></td>
+            <td><button id="3" onclick="three()">3</button></td>
+            <td rowspan="2" class="color"><button class="equal" id="="  onclick="Equal()">=</button></td>
+        </tr>
+         <tr>
+            <td colspan="2"><button class="zero" onclick="zero()" id="0">0</button></td>
+            <td ><button onclick="dot()" id=".">.</button></td>
+        </tr>
+        </table>
+        <p>Muhammad Sheharyar coder</p>
+    </div> 
+    <script src="script.js"></script>
+</body>
+</html>
