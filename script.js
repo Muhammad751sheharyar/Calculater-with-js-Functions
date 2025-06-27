@@ -2,10 +2,6 @@ let cal = document.getElementById("calScreen");
 
 
 
-
-// function DEL(){
-//   cal.value.sl = document.getElementById("DEL");
-// }
 function Nine(){
   cal.value +=document.getElementById("9").innerText;
 }
@@ -59,8 +55,11 @@ function dot(){
 function Equal(){
   cal.value = eval(cal.value)
 }
-function DEL(){
-  cal.value
+let delet1 ="";
+function del(){
+  console.log(cal.value.length);
+   delet1 = cal.value.slice(0,cal.value.length-1);
+   cal.value = delet1;
 }
 
 
